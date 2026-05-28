@@ -34,7 +34,6 @@ font: 30px;
 .sociais{
 display: flex;
 justify-content: flex-end;
-width: 25%;
 padding-right: 30px;
     border-radius: 50%;
     width: 150px;        
