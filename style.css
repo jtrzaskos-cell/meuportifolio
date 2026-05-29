@@ -30,18 +30,24 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 flex-shrink: 0;       
 }
 
+/* ====================== SOCIAIS AJUSTADA ====================== */
 .sociais{
-display: flex;
-justify-content: flex-end;
-align-items: center;
-width: 150px;        
-height: 150px;
-border-radius: 50%;
-object-fit: cover;    
-border: 3px solid #fff; 
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-flex-shrink: 0;           
+    width: 150px;        
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;    
+    border: 3px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    flex-shrink: 0;
+
+    /* Alinhamento no cabeçalho */
+    margin-left: auto;           /* Empurra para a direita */
+    display: flex;
+    justify-content: center;     /* Centraliza os ícones dentro do círculo */
+    align-items: center;
 }
+/* ============================================================ */
+
 .titulo_site{
 padding: 50px;
 text-align: center;
