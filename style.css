@@ -32,7 +32,8 @@ flex-shrink: 0;
 
 .sociais{
 display: flex;
-align-items: flex-end;
+justify-content: flex-end;
+align-items: center;
 width: 150px;        
 height: 150px;
 border-radius: 50%;
